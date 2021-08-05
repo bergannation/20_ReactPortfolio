@@ -1,0 +1,552 @@
+/* Main Title glow CSS only */
+body section #shadow {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2em;
+  letter-spacing: 20px;
+  font-family: "bad script", "Segoe Script", "Stencil";
+  color: #fff;
+  line-height: 2;
+}
+
+#shadow {
+  text-shadow: 0 0 20px blue, 0 0 30px blue, 0 0 40px blue, 0 0 70px blue,
+    0 0 80px blue, 0 0 100px blue, 0 0 150px blue;
+}
+
+#glow {
+  animation: neon1 linear infinite 2s;
+  will-change: opacity;
+}
+
+#blink {
+  animation: blink linear infinite 2s;
+}
+
+@keyframes neon1 {
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0.6;
+  }
+}
+@keyframes blink {
+  70% {
+    opacity: 1;
+  }
+  79% {
+    opacity: 0;
+  }
+  81% {
+    opacity: 1;
+  }
+  82% {
+    opacity: 0;
+  }
+  83% {
+    opacity: 1;
+  }
+  92% {
+    opacity: 0;
+  }
+  92.5% {
+    opacity: 1;
+  }
+
+  /* Navigation bar buttons */
+}
+#testbutton,
+#testbutton2,
+#testbutton3,
+#testbutton4 {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(19, 20, 22);
+  overflow: hidden;
+  font-family: "lato", "Trebuchet MS", "Verdana", "sans-serif";
+}
+#testbutton,
+#testbutton2,
+#testbutton3,
+#testbutton4 {
+  width: 150px;
+  height: 50px;
+  border-radius: 100px;
+  position: relative;
+  cursor: pointer;
+  line-height: 12px;
+  left: calc(50% - 75px);
+  top: calc(50% - 25px);
+  background: linear-gradient(
+    60deg,
+    #f79533,
+    #f37055,
+    #ef4e7b,
+    #a166ab,
+    #5073b8,
+    #1098ad,
+    #07b39b,
+    #6fba82
+  );
+}
+
+#testbutton:before,
+#testbutton2:before,
+#testbutton3:before,
+#testbutton4:before {
+  content: "";
+  z-index: 1;
+  position: absolute;
+  display: block;
+  width: 80%;
+  height: 70%;
+  top: 15%;
+  left: 10%;
+  transition: 0.3s opacity ease-in-out;
+  filter: blur(15px);
+  opacity: 0;
+  background: linear-gradient(
+    60deg,
+    #f79533,
+    #f37055,
+    #ef4e7b,
+    #a166ab,
+    #5073b8,
+    #1098ad,
+    #07b39b,
+    #6fba82
+  );
+}
+#testbutton:hover,
+#testbutton2:hover,
+#testbutton3:hover,
+#testbutton4:hover {
+  -webkit-box-shadow: 0px 0px 50px 0px white;
+  -moz-box-shadow: 0px 0px 50px 0px white;
+  box-shadow: 0px 0px 50px 0px white;
+  transform: 0.5s opacity ease;
+  opacity: 1;
+  background: linear-gradient(
+    60deg,
+    #f79533,
+    #f37055,
+    #ef4e7b,
+    #a166ab,
+    #5073b8,
+    #1098ad,
+    #07b39b,
+    #6fba82
+  );
+}
+#testbutton:after {
+  content: "ABOUT ME";
+  text-align: center;
+  line-height: 40px;
+  font-size: 18px;
+  color: rgba(235, 235, 235, 1);
+  font-weight: bold;
+  z-index: 5;
+  position: absolute;
+  display: block;
+  border-radius: 180px;
+  width: 92%;
+  height: 80%;
+  top: 10%;
+  left: 4%;
+  background-color: rgb(19, 20, 22);
+}
+#testbutton2:after {
+  content: "WORK";
+  text-align: center;
+  line-height: 40px;
+  font-size: 18px;
+  color: rgba(235, 235, 235, 1);
+  font-weight: bold;
+  z-index: 5;
+  position: absolute;
+  display: block;
+  border-radius: 180px;
+  width: 92%;
+  height: 80%;
+  top: 10%;
+  left: 4%;
+  background-color: rgb(19, 20, 22);
+}
+#testbutton3:after {
+  content: "CONTACT ME";
+  text-align: center;
+  line-height: 40px;
+  font-size: 18px;
+  color: rgba(235, 235, 235, 1);
+  font-weight: bold;
+  z-index: 5;
+  position: absolute;
+  display: block;
+  border-radius: 180px;
+  width: 92%;
+  height: 80%;
+  top: 10%;
+  left: 4%;
+  background-color: rgb(19, 20, 22);
+}
+#testbutton4:after {
+  content: "RESUME";
+  text-align: center;
+  line-height: 40px;
+  font-size: 18px;
+  color: rgba(235, 235, 235, 1);
+  font-weight: bold;
+  z-index: 5;
+  position: absolute;
+  display: block;
+  border-radius: 180px;
+  width: 92%;
+  height: 80%;
+  top: 10%;
+  left: 4%;
+  background-color: rgb(19, 20, 22);
+}
+/* END OF NAVIGATION */
+/* My Portfolio Works Section */
+body {
+  font-family: "Raleway";
+  -webkit-font-smoothing: antialiased;
+}
+
+#app p {
+  line-height: 1.5em;
+}
+
+h1 + p,
+p + p {
+  margin-top: 10px;
+}
+
+.container {
+  padding: 40px 80px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(3, auto);
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  align-items: center;
+  grid-gap: 50px;
+}
+
+.container .image1 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.container .image2 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+.container .image3 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+.container .image4 {
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+.container .image5 {
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+.container .image6 {
+  grid-column: 2/2;
+  grid-row: 3/4;
+}
+.container .image7 {
+  grid-column: 3/4;
+  grid-row: 3/4;
+}
+
+.card-wrap {
+  margin: 10px;
+  transform: perspective(800px);
+  transform-style: preserve-3d;
+  cursor: pointer;
+  margin: 25px;
+}
+.card-wrap:hover .card-info {
+  transform: translateY(0);
+}
+
+.card-wrap:hover .card-info {
+  transition: 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+.card-wrap:hover .card-info:after {
+  transition: 5s cubic-bezier(0.23, 1, 0.32, 1);
+  opacity: 1;
+  transform: translateY(0);
+}
+.card-wrap:hover .card-bg {
+  transition: 0.6s cubic-bezier(0.23, 1, 0.32, 1),
+    opacity 5s cubic-bezier(0.23, 1, 0.32, 1);
+  opacity: 0.8;
+}
+.card-wrap:hover .card {
+  transition: 0.6s cubic-bezier(0.23, 1, 0.32, 1),
+    box-shadow 2s cubic-bezier(0.23, 1, 0.32, 1);
+  box-shadow: rgba(16, 20, 228, 0.986) 0 0 40px 5px, white 0 0 0 1px,
+    rgba(0, 0, 0, 0.66) 0 30px 60px 0, inset #333 0 0 0 5px,
+    inset white 0 0 0 6px;
+}
+
+.card {
+  position: relative;
+  flex: 0 0 240px;
+  width: 240px;
+  height: 320px;
+  background-color: #333;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.66) 0 30px 60px 0, inset #333 0 0 0 5px,
+    inset rgba(255, 255, 255, 0.5) 0 0 0 6px;
+  transition: 1s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+/* Project Card images */
+.image1 .card-wrap .card {
+  height: 400px;
+  width: 300px;
+}
+.image2 .card-wrap .card {
+  background-image: url(./images/capture6.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+.image3 .card-wrap .card {
+  background-image: url(./images/capture4.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.image4 .card-wrap .card {
+  background-image: url(./images/capture3.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.image5 .card-wrap .card {
+  background-image: url(./images/screencapture15.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.image6 .card-wrap .card {
+  background-image: url(./images/notetaker.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.card-bg {
+  opacity: 0.5;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transition: 1s cubic-bezier(0.445, 0.05, 0.55, 0.95),
+    opacity 5s 1s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  pointer-events: none;
+}
+/* Card Description animation/shadowing */
+.card-info {
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  transform: translateY(40%);
+  transition: 0.6s 1.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.card-info * {
+  position: relative;
+  z-index: 1;
+}
+.card-info:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+    to bottom,
+    transparent 0%,
+    rgba(0, 0, 0, 0.6) 100%
+  );
+  background-blend-mode: overlay;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: 5s 1s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+.card-info h1 {
+  font-family: "Playfair Display";
+  font-size: 36px;
+  font-weight: 700;
+  text-shadow: rgba(0, 0, 0, 0.5) 0 60px 60px;
+}
+.image1 .card-info h1 {
+  padding-bottom: 15px;
+  color: black;
+}
+.image2 .card-info h1 {
+  padding-bottom: 15px;
+  color: black;
+}
+.image3 .card-info h1 {
+  padding-bottom: 15px;
+  color: white;
+}
+.image4 .card-info h1 {
+  padding-bottom: 15px;
+  color: black;
+}
+.image5 .card-info h1 {
+  padding-bottom: 15px;
+  color: black;
+}
+.image6 .card-info h1 {
+  padding-bottom: 15px;
+  color: black;
+}
+/* Buttons on the project cards */
+.custom-btn {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  background: transparent;
+  cursor: pointer;
+  font-family: "Raleway";
+  -webkit-font-smoothing: antialiased;
+
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+.btn-11 {
+  border: none;
+  background: black;
+  background: radial-gradient(circle at center top, #cce, #33a);
+  color: #fff;
+  overflow: hidden;
+}
+.btn-11:hover {
+  text-decoration: none;
+  color: #fff;
+  opacity: 0.7;
+}
+.btn-11:before {
+  position: absolute;
+  content: "";
+  display: inline-block;
+  top: -180px;
+  left: 0;
+  width: 30px;
+  height: 100%;
+  background-color: #fff;
+  animation: shiny-btn1 3s ease-in-out infinite;
+}
+.btn-11:active {
+  box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.3),
+    -4px -4px 6px 0 rgba(116, 125, 136, 0.2),
+    inset -4px -4px 6px 0 rgba(255, 255, 255, 0.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+@-webkit-keyframes shiny-btn1 {
+  0% {
+    -webkit-transform: scale(0) rotate(45deg);
+    opacity: 0;
+  }
+  80% {
+    -webkit-transform: scale(0) rotate(45deg);
+    opacity: 0.5;
+  }
+  81% {
+    -webkit-transform: scale(4) rotate(45deg);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(50) rotate(45deg);
+    opacity: 0;
+  }
+}
+/* main project card button */
+.btn1 {
+  cursor: pointer;
+  margin-top: 2.5rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 0.65rem;
+  font-weight: bold;
+  letter-spacing: 0.075rem;
+  text-transform: uppercase;
+  color: white;
+  background-color: black;
+  border: none;
+}
+.btn1:hover {
+  background-color: #0d0d0d;
+}
+/* Rest of project card buttons */
+.btn {
+  cursor: pointer;
+  margin-top: 1.3rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 0.65rem;
+  font-weight: bold;
+  letter-spacing: 0.075rem;
+  text-transform: uppercase;
+  color: white;
+  background-color: black;
+  border: none;
+}
+.btn:hover {
+  background-color: #0d0d0d;
+}
+
+/* Media Q for navigation buttons to shrink */
+
+@media screen and (max-width: 1140px) {
+  .container {
+    padding: 40px 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+/* media Q for Experience section to shrink */
+@media screen and (max-width: 375px) {
+  .about-me .info .hobbies {
+    padding: 0px;
+    font-size: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 775px) {
+  .about-me .info .hobbies {
+    padding: 0px;
+    font-size: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
