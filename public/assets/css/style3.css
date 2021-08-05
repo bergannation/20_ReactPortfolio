@@ -142,7 +142,7 @@ body section #shadow {
   );
 }
 #testbutton:after {
-  content: "ABOUT ME";
+  content: "HOME";
   text-align: center;
   line-height: 40px;
   font-size: 18px;
@@ -159,7 +159,7 @@ body section #shadow {
   background-color: rgb(19, 20, 22);
 }
 #testbutton2:after {
-  content: "WORK";
+  content: "ABOUT ME";
   text-align: center;
   line-height: 40px;
   font-size: 18px;
@@ -176,7 +176,7 @@ body section #shadow {
   background-color: rgb(19, 20, 22);
 }
 #testbutton3:after {
-  content: "CONTACT ME";
+  content: "PROJECTS";
   text-align: center;
   line-height: 40px;
   font-size: 18px;
@@ -193,7 +193,7 @@ body section #shadow {
   background-color: rgb(19, 20, 22);
 }
 #testbutton4:after {
-  content: "RESUME";
+  content: "CONTACT ME";
   text-align: center;
   line-height: 40px;
   font-size: 18px;
