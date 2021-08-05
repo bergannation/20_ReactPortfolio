@@ -11,14 +11,14 @@ body {
 /* Navigation Bar */
 #container {
   display: flex;
+  align-items: center;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
 /* nav bar background image */
-#header-background {
-  background-image: url("./public/assets/images/background8.jpg");
+.header-background {
   width: 100%;
-  background-position: center center;
+  background-position: center;
 }
 
 header img {
@@ -40,15 +40,12 @@ nav ul {
   list-style-type: none;
   padding: 0;
   display: flex;
-  margin-top: 60px;
-  align-content: center;
   flex-direction: row;
   justify-content: space-evenly;
   width: 100%;
 }
 
 nav li {
-  position: relative;
   display: flex;
   padding: 0 10px;
   height: 100%;
@@ -85,7 +82,7 @@ header a {
   line-height: 1.7;
 }
 h2 {
-  font-size: 52px;
+  font-size: 100px;
   text-align: center;
   margin: 5px;
   padding: 10px;
@@ -100,8 +97,16 @@ h3 {
   font-weight: 400;
   margin-top: 50px;
 }
+.body h3 {
+  display: flex;
+  align-self: center;
+  color: white;
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 50px;
+}
 #shadow {
-  margin: 0px 40px;
+  margin: 20px 20px;
   text-align: center;
 }
 
@@ -175,6 +180,12 @@ h3 {
 /* Contact me Section */
 #contactheader {
   margin-bottom: 40px;
+  display: flex;
+  align-self: center;
+  color: white;
+  font-size: 40px;
+  font-weight: 400;
+  margin-top: 50px;
 }
 .body {
   display: flex;

@@ -1,9 +1,5 @@
 /* Main Title glow CSS only */
-body section #shadow {
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+#container #shadow {
   font-size: 2em;
   letter-spacing: 20px;
   font-family: "bad script", "Segoe Script", "Stencil";

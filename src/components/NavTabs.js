@@ -4,7 +4,10 @@ import background from "../images/background8.jpg";
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <header style={{ backgroundImage: `url(${background})` }}>
+    <header
+      class="header-background"
+      style={{ backgroundImage: `url(${background})` }}
+    >
       <section id="container">
         <img src="assets/images/tb.jfif" alt="travisbrown" />
         <p id="shadow">
@@ -13,7 +16,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         </p>
 
         <nav>
-          <ul className="nav nav-tabs">
+          <ul className="nav">
             <li className="nav-item">
               <a
                 href="#home"
