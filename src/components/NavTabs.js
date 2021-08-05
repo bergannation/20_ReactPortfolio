@@ -8,7 +8,7 @@ function NavTabs({ currentPage, handlePageChange }) {
       class="header-background"
       style={{ backgroundImage: `url(${background})` }}
     >
-      <section id="container">
+      <section id="navContainer">
         <img src="assets/images/tb.jfif" alt="travisbrown" />
         <p id="shadow">
           <span id="glow">TRAVIS BROWN'S </span>

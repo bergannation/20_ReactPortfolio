@@ -9,7 +9,7 @@ body {
   margin: 0;
 }
 /* Navigation Bar */
-#container {
+#navContainer {
   display: flex;
   align-items: center;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -224,7 +224,7 @@ h3 {
     align-self: center;
   }
 
-  #container #shadow {
+  #navContainer #shadow {
     font-size: medium;
     margin: 50px 20px 0px 0px;
   }
