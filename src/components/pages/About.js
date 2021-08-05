@@ -1,13 +1,8 @@
 import React from "react";
 
-import bodyBackground from "../../images/background2.jfif";
-
 export default function About() {
   return (
-    <section
-      class="background"
-      style={{ backgroundImage: `url(${bodyBackground})` }}
-    >
+    <section class="background">
       <h2 id="aboutme">About Me</h2>
       <div class="about-me">
         <div class="containerB">

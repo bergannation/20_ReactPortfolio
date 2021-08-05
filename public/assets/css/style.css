@@ -3,9 +3,7 @@
   padding: 0;
   margin: 0;
 }
-#backgroundColor {
-  background-color: grey;
-}
+
 body {
   background: radial-gradient(ellipse at bottom, #1b2735, #090a0f);
   margin: 0;
@@ -70,7 +68,7 @@ header a {
 
 /*Main background image */
 .background {
-  background-image: url("./images/background2.jfif");
+  background-image: url("../images/background2.jfif");
   background-position: center top;
   background-size: cover;
 }
@@ -172,9 +170,7 @@ h3 {
   width: 50px;
   margin: 0 10px;
 }
-hr {
-  margin: 0 80px;
-}
+
 /* End About Me */
 
 /* Contact me Section */
