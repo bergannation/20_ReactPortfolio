@@ -1,5 +1,9 @@
 import React from "react";
 
+import ever24 from "../../images/ever24.png";
+import ricochet from "../../images/ricochet.png";
+import takeoff from "../../images/takeoff.png";
+
 export default function About() {
   return (
     <section class="background">
@@ -50,9 +54,9 @@ export default function About() {
                 <div class="texts">
                   <h3>
                     Web Design
-                    <img src="assets/images/takeoff.png" class="logos" />
-                    <img src="assets/images/ricochet.png" class="logos" />
-                    <img src="assets/images/ever24.png" class="logos" />
+                    <img src={ever24} class="logos" />
+                    <img src={ricochet} class="logos" />
+                    <img src={takeoff} class="logos" />
                   </h3>
                   <p>
                     Experience: IT Director/Email Director. Head of development

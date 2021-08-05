@@ -81,23 +81,23 @@
 }
 .lefter {
   transform: translateX(-60px) translateZ(-50px) rotateY(-10deg);
-  background-image: url(./assets/images/twitch.png);
+  background-image: url(../images/twitch.png);
 }
 .left {
   transform: translateX(-30px) translateZ(-25px) rotateY(-5deg);
-  background-image: url(./images/twitter.png);
+  background-image: url(../images/twitter.png);
 }
 .center {
   opacity: 1;
-  background-image: url(./images/github.png);
+  background-image: url(../images/github.png);
 }
 .right {
   transform: translateX(30px) translateZ(-25px) rotateY(5deg);
-  background-image: url(./images/linkedin\ logo.png);
+  background-image: url(../images/linkedin\ logo.png);
 }
 .righter {
   transform: translateX(60px) translateZ(-50px) rotateY(10deg);
-  background-image: url(./images/resume\ logo.png);
+  background-image: url(../images/resume\ logo.png);
 }
 .explainer {
   font-weight: 300;

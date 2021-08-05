@@ -9,12 +9,10 @@ body {
   margin: 0;
 }
 /* Navigation Bar */
-header {
+#container {
   display: flex;
-  padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  color: #ffffff;
 }
 /* nav bar background image */
 #header-background {
@@ -64,6 +62,7 @@ header a {
   font-size: 40px;
   padding: 20px 5px;
 }
+
 /* end of nav */
 
 /*Main background image */
