@@ -1,8 +1,10 @@
 import React from "react";
 
+import bodyBackground from "../../images/background2.jfif";
+
 export default function Projects() {
   return (
-    <div>
+    <div style={{ backgroundImage: `url(${bodyBackground})` }}>
       <h1>Projects Page</h1>
       <p>
         Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.

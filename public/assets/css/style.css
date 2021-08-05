@@ -3,7 +3,9 @@
   padding: 0;
   margin: 0;
 }
-
+#backgroundColor {
+  background-color: grey;
+}
 body {
   background: radial-gradient(ellipse at bottom, #1b2735, #090a0f);
   margin: 0;
@@ -18,7 +20,7 @@ header {
 }
 /* nav bar background image */
 #header-background {
-  background-image: url("./images/background8.jpg");
+  background-image: url("./public/assets/images/background8.jpg");
   width: 100%;
   background-position: center center;
 }

@@ -1,10 +1,10 @@
 import React from "react";
 
-// Here we are using object destructuring assignment to pluck off our variables from the props object
-// We assign them to their own variable names
+import background from "../images/background8.jpg";
+
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <header id="header-background">
+    <header style={{ backgroundImage: `url(${background})` }}>
       <img src="assets/images/tb.jfif" alt="travisbrown" />
       <section id="container">
         <p id="shadow">

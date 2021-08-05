@@ -1,8 +1,10 @@
-import React from 'react';
+import React from "react";
+
+import bodyBackground from "../../images/background2.jfif";
 
 export default function Contact() {
   return (
-    <div>
+    <div style={{ backgroundImage: `url(${bodyBackground})` }}>
       <h1>Contact Page</h1>
       <p>
         Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
