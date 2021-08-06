@@ -6,7 +6,7 @@ import "../../styles/css/style.css";
 export default function Projects() {
   return (
     <section id="app" className="background">
-      <h2 id="work">My Portfolio Work</h2>
+      <h2 id="projects">My Portfolio Work</h2>
       <ParallaxCard
         enableRotate
         enableTransform
