@@ -81,11 +81,10 @@ header a {
   color: white;
   line-height: 1.7;
 }
-h2 {
-  font-size: 100px;
+#h2 {
+  font-size: 3em;
   text-align: center;
-  margin: 5px;
-  padding: 10px;
+  font-weight: 600;
   color: white;
 }
 
@@ -121,6 +120,8 @@ h3 {
 
 .about-me .info h2 {
   margin: 20px 0 20px 40px;
+  font-weight: 600;
+  font-size: 3em;
   color: white;
 }
 .about-me .info > p {
@@ -182,8 +183,8 @@ h3 {
   display: flex;
   align-self: center;
   color: white;
-  font-size: 40px;
-  font-weight: 400;
+  font-size: 3em;
+  font-weight: 600;
 }
 .body {
   display: flex;

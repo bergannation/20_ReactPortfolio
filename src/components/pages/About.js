@@ -7,10 +7,10 @@ import takeoff from "../../images/takeoff.png";
 export default function About() {
   return (
     <section className="background">
-      <h2 id="aboutme">About Me</h2>
       <div className="about-me">
         <div className="containerB">
           <div className="info">
+            <h2 id="aboutme">About Me</h2>
             <ul>
               <li>
                 CTO for Maxus 33 LLC, an emerging technology company in Omaha,

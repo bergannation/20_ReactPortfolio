@@ -361,7 +361,7 @@ element.style {
 }
 .image1 #card-info h1 {
   padding-bottom: 15px;
-  color: white;
+  color: black;
 }
 .image2 #card-info h1 {
   padding-bottom: 15px;
@@ -380,6 +380,10 @@ element.style {
   color: black;
 }
 .image6 .card-info h1 {
+  padding-bottom: 15px;
+  color: black;
+}
+.image7 .card-info h1 {
   padding-bottom: 15px;
   color: black;
 }
