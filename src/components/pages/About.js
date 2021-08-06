@@ -6,11 +6,11 @@ import takeoff from "../../images/takeoff.png";
 
 export default function About() {
   return (
-    <section class="background">
+    <section className="background">
       <h2 id="aboutme">About Me</h2>
-      <div class="about-me">
-        <div class="containerB">
-          <div class="info">
+      <div className="about-me">
+        <div className="containerB">
+          <div className="info">
             <ul>
               <li>
                 CTO for Maxus 33 LLC, an emerging technology company in Omaha,
@@ -46,17 +46,17 @@ export default function About() {
             <br />
             <hr />
             <h2>Experience</h2>
-            <div class="hobbies">
-              <div class="content">
-                <div class="icon">
-                  <i class="fa fa-paint-brush fa-2x"></i>
+            <div className="hobbies">
+              <div className="content">
+                <div className="icon">
+                  <i className="fa fa-paint-brush fa-2x"></i>
                 </div>
-                <div class="texts">
+                <div className="texts">
                   <h3>
                     Web Design
-                    <img src={ever24} class="logos" />
-                    <img src={ricochet} class="logos" />
-                    <img src={takeoff} class="logos" />
+                    <img src={ever24} className="logos" />
+                    <img src={ricochet} className="logos" />
+                    <img src={takeoff} className="logos" />
                   </h3>
                   <p>
                     Experience: IT Director/Email Director. Head of development
@@ -70,12 +70,12 @@ export default function About() {
                 </div>
               </div>
 
-              <div class="content">
-                <div class="icon">
-                  <i class="fa fa-users fa-2x"></i>
+              <div className="content">
+                <div className="icon">
+                  <i className="fa fa-users fa-2x"></i>
                 </div>
 
-                <div class="texts">
+                <div className="texts">
                   <h3>Marketing</h3>
                   <p>
                     Experience: Marketing Director for Express Distribution (DBA
@@ -86,12 +86,12 @@ export default function About() {
                 </div>
               </div>
 
-              <div class="content">
-                <div class="icon">
-                  <i class="fa fa-magic fa-2x"></i>
+              <div className="content">
+                <div className="icon">
+                  <i className="fa fa-magic fa-2x"></i>
                 </div>
 
-                <div class="texts">
+                <div className="texts">
                   <h3>Graphic Design</h3>
                   <p>
                     Experience: Many Microsoft products, including Excel,
@@ -102,12 +102,12 @@ export default function About() {
                 </div>
               </div>
 
-              <div class="content">
-                <div class="icon">
-                  <i class="fa fa-keyboard-o fa-2x"></i>
+              <div className="content">
+                <div className="icon">
+                  <i className="fa fa-keyboard-o fa-2x"></i>
                 </div>
 
-                <div class="texts">
+                <div className="texts">
                   <h3>Technical Skills</h3>
                   <p>
                     Experience:*HTML *CSS *Javascript *jQuery *Responsive Design

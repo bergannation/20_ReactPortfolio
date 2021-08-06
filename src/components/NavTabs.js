@@ -1,15 +1,19 @@
 import React from "react";
+import "../styles/css/style.css";
+import "../styles/css/style2.css";
+import "../styles/css/style3.css";
 
 import background from "../images/background8.jpg";
+import tb from "../images/tb.jfif";
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <header
-      class="header-background"
+      className="header-background"
       style={{ backgroundImage: `url(${background})` }}
     >
       <section id="navContainer">
-        <img src="assets/images/tb.jfif" alt="travisbrown" />
+        <img src={tb} alt="travisbrown" />
         <p id="shadow">
           <span id="glow">TRAVIS BROWN'S </span>
           <span id="blink">PORTFOLIO</span>
@@ -52,13 +56,13 @@ function NavTabs({ currentPage, handlePageChange }) {
             </li>
             <li className="nav-item">
               <a
-                href="#contact"
+                href="#form"
                 id="testbutton4"
-                onClick={() => handlePageChange("Contact")}
+                onClick={() => handlePageChange("Form")}
                 className={
                   currentPage === "Home" ? "nav-link active" : "nav-link"
                 }
-                alt="Contact Me"
+                alt="Form"
               ></a>
             </li>
           </ul>

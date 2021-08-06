@@ -1,0 +1,263 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: radial-gradient(ellipse at bottom, #1b2735, #090a0f);
+  margin: 0;
+}
+/* Navigation Bar */
+#navContainer {
+  display: flex;
+  align-items: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+/* nav bar background image */
+.header-background {
+  width: 100%;
+  background-position: center;
+}
+
+header img {
+  max-height: 200px;
+  max-width: 200px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+nav {
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+    sans-serif;
+  font-size: 25px;
+  width: 100%;
+  align-content: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+nav li {
+  display: flex;
+  padding: 0 10px;
+  height: 100%;
+}
+
+header a {
+  z-index: 1;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 40px;
+  padding: 20px 5px;
+}
+
+/* end of nav */
+
+/*Main background image */
+.background {
+  background-image: url("../../images/background2.jfif");
+  background-position: center top;
+  background-size: cover;
+}
+/* H2 & H3 and List font settings */
+.info ul {
+  color: white;
+  margin: 0px 90px;
+  list-style: none;
+  line-height: 1.5rem;
+}
+.info li:before {
+  content: "\25c9";
+  margin-right: 10px;
+  color: white;
+  line-height: 1.7;
+}
+h2 {
+  font-size: 100px;
+  text-align: center;
+  margin: 5px;
+  padding: 10px;
+  color: white;
+}
+
+h3 {
+  display: flex;
+  align-self: center;
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 50px;
+}
+.body h3 {
+  display: flex;
+  align-self: center;
+  color: white;
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 50px;
+}
+#shadow {
+  margin: 20px 20px;
+  text-align: center;
+}
+
+/* My About Me/Experience Section */
+.about-me {
+  overflow: hidden;
+}
+
+.about-me .info {
+  width: 100%;
+}
+
+.about-me .info h2 {
+  margin: 20px 0 20px 40px;
+  color: white;
+}
+.about-me .info > p {
+  margin: 0 0 10px 40px;
+}
+.about-me .info > p:last-of-type {
+  margin-top: 10px;
+}
+.about-me .info p {
+  line-height: 1.5;
+  color: white;
+  margin-top: 10px;
+}
+.about-me .info .hobbies {
+  overflow: hidden;
+  padding: 40px 80px;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, auto);
+  justify-content: center;
+  grid-gap: 50px;
+}
+.about-me .info .hobbies .content {
+  box-sizing: border-box;
+  float: left;
+  width: 50%;
+  padding: 2% 1%;
+  overflow: hidden;
+  width: 100%;
+}
+.about-me .info .hobbies .content h3 {
+  color: white;
+  margin: 0px;
+  font-weight: 600;
+  font-size: 2em;
+}
+.about-me .info .hobbies .content .icon {
+  float: left;
+  width: 12%;
+}
+.about-me .info .hobbies .content .icon i {
+  max-width: 100%;
+  padding-top: 10px;
+}
+.about-me .info .hobbies .content .texts {
+  width: 84%;
+}
+
+.logos {
+  height: 50px;
+  width: 50px;
+  margin: 0 10px;
+}
+
+/* End About Me */
+
+/* Contact me Section */
+#contactheader {
+  display: flex;
+  align-self: center;
+  color: white;
+  font-size: 40px;
+  font-weight: 400;
+}
+.body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Media Q for 1430 Media Size Display */
+@media screen and (max-width: 1430px) {
+  ul {
+    display: flex;
+    flex-flow: column wrap;
+  }
+  #testbutton,
+  #testbutton2,
+  #testbutton3,
+  #testbutton4 {
+    margin: 10px;
+  }
+}
+/* Media Q for 1140px Size display */
+@media screen and (max-width: 1140px) {
+  /* #header-background {
+    background-image: url("./images/headernew.png");
+    display: flex;
+    flex-direction: column;
+    background-position: center top;
+    background-size: cover;
+  }
+  .background {
+    background-image: url("./images/new2.jpg");
+    font-size: 1em;
+    background-position: center top;
+  } */
+  /* Navigation */
+  header img {
+    align-self: center;
+  }
+
+  #navContainer #shadow {
+    font-size: medium;
+    margin: 50px 20px 0px 0px;
+  }
+
+  ul {
+    display: flex;
+    flex-flow: column wrap;
+    flex-basis: auto;
+  }
+
+  li {
+    margin: 0px;
+    margin-right: 20px;
+    padding: 0px 0px;
+  }
+  body nav ul li a {
+    font-size: 1em;
+  }
+  /*Body */
+  #aboutme article p {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 20px;
+  }
+
+  h2 {
+    border-bottom-color: grey;
+    font-size: 2em;
+  }
+
+  h3 {
+    font-size: 1em;
+  }
+  .contactheader {
+    display: flex;
+    flex-direction: column;
+  }
+}

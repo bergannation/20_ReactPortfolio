@@ -1,5 +1,5 @@
 import React from "react";
 
 export default function Home() {
-  return <section class="background">Home</section>;
+  return <section className="background">Home</section>;
 }
