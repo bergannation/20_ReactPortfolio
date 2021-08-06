@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.js": "/20_ReactPortfolio/static/js/main.f27e9216.chunk.js",
+    "main.js.map": "/20_ReactPortfolio/static/js/main.f27e9216.chunk.js.map",
+    "runtime-main.js": "/20_ReactPortfolio/static/js/runtime-main.120fe8ec.js",
+    "runtime-main.js.map": "/20_ReactPortfolio/static/js/runtime-main.120fe8ec.js.map",
+    "static/css/2.818011ed.chunk.css": "/20_ReactPortfolio/static/css/2.818011ed.chunk.css",
+    "static/js/2.dfeb19ec.chunk.js": "/20_ReactPortfolio/static/js/2.dfeb19ec.chunk.js",
+    "static/js/2.dfeb19ec.chunk.js.map": "/20_ReactPortfolio/static/js/2.dfeb19ec.chunk.js.map",
+    "index.html": "/20_ReactPortfolio/index.html",
+    "static/css/2.818011ed.chunk.css.map": "/20_ReactPortfolio/static/css/2.818011ed.chunk.css.map",
+    "static/js/2.dfeb19ec.chunk.js.LICENSE.txt": "/20_ReactPortfolio/static/js/2.dfeb19ec.chunk.js.LICENSE.txt",
+    "static/media/background8.e470e585.jpg": "/20_ReactPortfolio/static/media/background8.e470e585.jpg",
+    "static/media/ever24.e48c0153.png": "/20_ReactPortfolio/static/media/ever24.e48c0153.png",
+    "static/media/takeoff.8a808423.png": "/20_ReactPortfolio/static/media/takeoff.8a808423.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.120fe8ec.js",
+    "static/css/2.818011ed.chunk.css",
+    "static/js/2.dfeb19ec.chunk.js",
+    "static/js/main.f27e9216.chunk.js"
+  ]
+}
