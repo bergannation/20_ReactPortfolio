@@ -12,7 +12,7 @@ import password from "../../images/password.png";
 
 export default function Projects() {
   return (
-    <section id="app" className="background container">
+    <section id="app" className="background cards">
       <h2 id="projects">My Portfolio Work</h2>
       <a
         href="https://ever24.herokuapp.com/"
@@ -51,9 +51,13 @@ export default function Projects() {
           style={{ margin: "0 auto", width: 340, height: 340 }}
           className="image2"
         >
-          <img src={delivery} style={{ width: 340, height: 250 }} />
+          <img
+            class="image2"
+            src={delivery}
+            style={{ width: 340, height: 250 }}
+          />
           <div class="card-info" id="card-info">
-            <h1>Delivery Done Right</h1>
+            <h1>Delivery Project</h1>
             <a
               href="https://github.com/japinell/KU-CBC-Project-1-Delivery-Done-Right"
               target="_blank"
@@ -76,9 +80,13 @@ export default function Projects() {
           style={{ margin: "0 auto", width: 340, height: 340 }}
           className="image3"
         >
-          <img src={weather} style={{ width: 340, height: 250 }} />
+          <img
+            class="image3"
+            src={weather}
+            style={{ width: 340, height: 250 }}
+          />
           <div class="card-info" id="card-info">
-            <h1>Weather Dashboard</h1>
+            <h1>Weather App JS</h1>
             <a
               href="https://github.com/bergannation/06_WeatherDashboard"
               target="_blank"
@@ -103,7 +111,7 @@ export default function Projects() {
         >
           <img src={scheduler} style={{ width: 340, height: 250 }} />
           <div class="card-info" id="card-info">
-            <h1>Work Day Scheduler</h1>
+            <h1>Day Scheduler</h1>
             <a
               href="https://github.com/bergannation/05_workDayScheduler"
               target="_blank"
@@ -153,7 +161,7 @@ export default function Projects() {
         >
           <img src={password} style={{ width: 340, height: 250 }} />
           <div class="card-info" id="card-info">
-            <h1>Password Generator</h1>
+            <h1>Password App</h1>
             <a
               href="https://github.com/bergannation/03_passwordhmwrk"
               target="_blank"

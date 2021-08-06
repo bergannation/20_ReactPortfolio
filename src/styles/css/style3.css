@@ -221,7 +221,7 @@ p + p {
   margin-top: 10px;
 }
 
-.container {
+.cards {
   padding: 40px 80px;
   display: grid;
   grid-template-columns: repeat(3, auto);
@@ -233,32 +233,32 @@ p + p {
   grid-gap: 50px;
 }
 
-.container .image1 {
+.cards .image1 {
   grid-column: 2/3;
   grid-row: 1/2;
 }
 
-.container .image2 {
+.cards .image2 {
   grid-column: 1/2;
   grid-row: 2/3;
 }
-.container .image3 {
+.cards .image3 {
   grid-column: 2/3;
   grid-row: 2/3;
 }
-.container .image4 {
+.cards .image4 {
   grid-column: 3/4;
   grid-row: 2/3;
 }
-.container .image5 {
+.cards .image5 {
   grid-column: 1/2;
   grid-row: 3/4;
 }
-.container .image6 {
+.cards .image6 {
   grid-column: 2/2;
   grid-row: 3/4;
 }
-.container .image7 {
+.cards .image7 {
   grid-column: 3/4;
   grid-row: 3/4;
 }
