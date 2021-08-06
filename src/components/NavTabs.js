@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/css/reset.css";
 import "../styles/css/style.css";
 import "../styles/css/style2.css";
 import "../styles/css/style3.css";
