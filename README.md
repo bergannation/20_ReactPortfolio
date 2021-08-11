@@ -50,9 +50,9 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ## Links
 
-[Link to GitHub Repository](https://github.com/bergannation/19_OfflineBudgetTracker)
+[Link to GitHub Repository](https://github.com/bergannation/20_ReactPortfolio)
 
-[Link to Heroku Deployed Application](https://bergan-budget-tracker.herokuapp.com/)
+[Link to Deployed Application](https://bergannation.github.io/20_ReactPortfolio/#home)
 
 ## Table Of Contents
 
