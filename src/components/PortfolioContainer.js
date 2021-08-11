@@ -3,7 +3,7 @@ import NavTabs from "./NavTabs";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
-import Form from "./pages/Form";
+import FormPage from "./pages/Form";
 import "../styles/css/reset.css";
 import "../styles/css/style.css";
 import "../styles/css/style2.css";
@@ -23,7 +23,7 @@ export default function PortfolioContainer() {
     if (currentPage === "Projects") {
       return <Projects />;
     }
-    return <Form />;
+    return <FormPage />;
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
