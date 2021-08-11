@@ -263,3 +263,134 @@ h3 {
     flex-direction: column;
   }
 }
+
+/* Home Page Gallery */
+.photo-gallery {
+  height: 500px;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.07),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.05), 0 12.5px 10px rgba(0, 0, 0, 0.042),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.035), 0 41.8px 33.4px rgba(0, 0, 0, 0.028),
+    0 100px 80px rgba(0, 0, 0, 0.02);
+}
+.photo-gallery__background {
+  height: 100%;
+  width: 100%;
+}
+.photo-gallery__background img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: top center;
+  object-position: top center;
+  filter: blur(5px);
+}
+.photo-gallery__image {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  max-width: 700px;
+  overflow: hidden;
+}
+.photo-gallery__image img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.07),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.05), 0 12.5px 10px rgba(0, 0, 0, 0.042),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.035), 0 41.8px 33.4px rgba(0, 0, 0, 0.028),
+    0 100px 80px rgba(0, 0, 0, 0.02);
+}
+.photo-gallery__caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.photo-gallery__actions {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 2em;
+}
+.photo-gallery__actions--left,
+.photo-gallery__actions--right {
+  color: rgba(255, 255, 255, 0.8);
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+.photo-gallery__actions--left svg,
+.photo-gallery__actions--right svg {
+  height: 3em;
+  filter: drop-shadow(0 0 0.75rem black);
+}
+.photo-gallery__actions--left:hover,
+.photo-gallery__actions--right:hover {
+  color: white;
+}
+
+.caption {
+  color: white;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  transition: transform 0.2s ease-in;
+  position: relative;
+  display: none;
+  transform: translateY(100%);
+}
+.caption__content {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 1em 2em;
+}
+.caption--show {
+  transform: translateY(0%);
+}
+.caption--toggle {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 150px;
+  padding: 0.75em 1em;
+  border: 0;
+  display: none;
+  background: rgba(0, 0, 0, 0.9);
+  color: white;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .caption {
+    display: flex;
+  }
+  .caption--toggle {
+    display: block;
+  }
+}
