@@ -353,7 +353,7 @@ element.style {
   transition: 2s cubic-bezier(1, 1, 1, 1);
 }
 
-.card-info h1 {
+#card-info h1 {
   font-family: "Playfair Display";
   font-size: 36px;
   font-weight: 700;
@@ -367,23 +367,23 @@ element.style {
   padding-bottom: 15px;
   color: black;
 }
-.image3 .card-info h1 {
+.image3 #card-info h1 {
   padding-bottom: 15px;
   color: white;
 }
-.image4 .card-info h1 {
+.image4 #card-info h1 {
   padding-bottom: 15px;
   color: black;
 }
-.image5 .card-info h1 {
+.image5 #card-info h1 {
   padding-bottom: 15px;
   color: black;
 }
-.image6 .card-info h1 {
+.image6 #card-info h1 {
   padding-bottom: 15px;
   color: black;
 }
-.image7 .card-info h1 {
+.image7 #card-info h1 {
   padding-bottom: 15px;
   color: black;
 }

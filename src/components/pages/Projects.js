@@ -28,7 +28,7 @@ export default function Projects() {
             className="image1"
           >
             <img src={ever24} style={{ maxWidth: "100%", maxHeight: "100%" }} />
-            <div className="card-info" id="card-info">
+            <div id="card-info">
               <h1>Ever24: Project 2</h1>
               <a
                 href="https://github.com/bergannation/KU_BootCamp_Project2"
@@ -57,7 +57,7 @@ export default function Projects() {
               src={delivery}
               style={{ width: 340, height: 250 }}
             />
-            <div className="card-info" id="card-info">
+            <div id="card-info">
               <h1>Delivery Project</h1>
               <a
                 href="https://github.com/japinell/KU-CBC-Project-1-Delivery-Done-Right"
@@ -86,7 +86,7 @@ export default function Projects() {
               src={weather}
               style={{ width: 340, height: 250 }}
             />
-            <div className="card-info" id="card-info">
+            <div id="card-info">
               <h1>Weather App JS</h1>
               <a
                 href="https://github.com/bergannation/06_WeatherDashboard"
@@ -111,7 +111,7 @@ export default function Projects() {
             className="image4"
           >
             <img src={scheduler} style={{ width: 340, height: 250 }} />
-            <div className="card-info" id="card-info">
+            <div id="card-info">
               <h1>Day Scheduler</h1>
               <a
                 href="https://github.com/bergannation/05_workDayScheduler"
@@ -136,7 +136,7 @@ export default function Projects() {
             className="image5"
           >
             <img src={note} style={{ width: 340, height: 250 }} />
-            <div className="card-info" id="card-info">
+            <div id="card-info">
               <h1>Note Taker App</h1>
               <a
                 href="https://github.com/bergannation/11_NoteTaker"
@@ -161,7 +161,7 @@ export default function Projects() {
             className="image6"
           >
             <img src={password} style={{ width: 340, height: 250 }} />
-            <div className="card-info" id="card-info">
+            <div id="card-info">
               <h1>Password App</h1>
               <a
                 href="https://github.com/bergannation/03_passwordhmwrk"
@@ -189,7 +189,7 @@ export default function Projects() {
               src="https://images.unsplash.com/photo-1479659929431-4342107adfc1?dpr=2&auto=compress,format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop="
               style={{ width: 340, height: 250 }}
             />
-            <div className="card-info" id="card-info">
+            <div id="card-info">
               <h1>Coming Soon!</h1>
               <a
                 href="https://github.com/bergannation/KU_BootCamp_Project2"
