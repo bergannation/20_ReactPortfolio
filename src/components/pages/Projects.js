@@ -9,6 +9,7 @@ import weather from "../../images/weather.png";
 import scheduler from "../../images/scheduler.png";
 import note from "../../images/note.png";
 import password from "../../images/password.png";
+import trainer from "../../images/taylorladig.png";
 
 export default function Projects() {
   return (
@@ -174,7 +175,7 @@ export default function Projects() {
         </a>
 
         <a
-          href="https://bergannation.github.io/06_WeatherDashboard/"
+          href="https://taylorladig.herokuapp.com/"
           target="_blank"
           className="image7"
           alt="image7"
@@ -185,14 +186,11 @@ export default function Projects() {
             style={{ margin: "0 auto", width: 340, height: 340 }}
             className="image7"
           >
-            <img
-              src="https://images.unsplash.com/photo-1479659929431-4342107adfc1?dpr=2&auto=compress,format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop="
-              style={{ width: 340, height: 250 }}
-            />
+            <img src={trainer} style={{ width: 340, height: 250 }} />
             <div id="card-info">
-              <h1>Coming Soon!</h1>
+              <h1>Personal Trainer</h1>
               <a
-                href="https://github.com/bergannation/KU_BootCamp_Project2"
+                href="https://github.com/bergannation/TaylorLadig"
                 target="_blank"
               >
                 <button className="custom-btn btn-11 btn">Repository</button>
