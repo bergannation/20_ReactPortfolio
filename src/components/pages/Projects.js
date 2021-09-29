@@ -40,9 +40,8 @@ export default function Projects() {
             </div>
           </ParallaxCard>
         </a>
-
         <a
-          href="https://japinell.github.io/KU-CBC-Project-1-Delivery-Done-Right/"
+          href="https://taylorladig.herokuapp.com/"
           target="_blank"
           className="image2"
           alt="image2"
@@ -53,8 +52,32 @@ export default function Projects() {
             style={{ margin: "0 auto", width: 340, height: 340 }}
             className="image2"
           >
+            <img src={trainer} style={{ width: 340, height: 250 }} />
+            <div id="card-info">
+              <h1>Personal Trainer</h1>
+              <a
+                href="https://github.com/bergannation/TaylorLadig"
+                target="_blank"
+              >
+                <button className="custom-btn btn-11 btn">Repository</button>
+              </a>
+            </div>
+          </ParallaxCard>
+        </a>
+        <a
+          href="https://japinell.github.io/KU-CBC-Project-1-Delivery-Done-Right/"
+          target="_blank"
+          className="image3"
+          alt="image3"
+        >
+          <ParallaxCard
+            enableRotate
+            enableTransform
+            style={{ margin: "0 auto", width: 340, height: 340 }}
+            className="image3"
+          >
             <img
-              className="image2"
+              className="image3"
               src={delivery}
               style={{ width: 340, height: 250 }}
             />
@@ -73,17 +96,17 @@ export default function Projects() {
         <a
           href="https://bergannation.github.io/06_WeatherDashboard/"
           target="_blank"
-          className="image3"
-          alt="image3"
+          className="image4"
+          alt="image4"
         >
           <ParallaxCard
             enableRotate
             enableTransform
             style={{ margin: "0 auto", width: 340, height: 340 }}
-            className="image3"
+            className="image4"
           >
             <img
-              className="image3"
+              className="image4"
               src={weather}
               style={{ width: 340, height: 250 }}
             />
@@ -102,14 +125,14 @@ export default function Projects() {
         <a
           href="https://bergannation.github.io/05_workDayScheduler/"
           target="_blank"
-          className="image4"
-          alt="image4"
+          className="image5"
+          alt="image5"
         >
           <ParallaxCard
             enableRotate
             enableTransform
             style={{ margin: "0 auto", width: 340, height: 340 }}
-            className="image4"
+            className="image5"
           >
             <img src={scheduler} style={{ width: 340, height: 250 }} />
             <div id="card-info">
@@ -127,14 +150,14 @@ export default function Projects() {
         <a
           href="https://bergan-notetaker2.herokuapp.com/"
           target="_blank"
-          className="image5"
-          alt="image5"
+          className="image6"
+          alt="image6"
         >
           <ParallaxCard
             enableRotate
             enableTransform
             style={{ margin: "0 auto", width: 340, height: 340 }}
-            className="image5"
+            className="image6"
           >
             <img src={note} style={{ width: 340, height: 250 }} />
             <div id="card-info">
@@ -152,31 +175,6 @@ export default function Projects() {
         <a
           href="https://bergannation.github.io/03_passwordhmwrk/"
           target="_blank"
-          className="image6"
-          alt="image6"
-        >
-          <ParallaxCard
-            enableRotate
-            enableTransform
-            style={{ margin: "0 auto", width: 340, height: 340 }}
-            className="image6"
-          >
-            <img src={password} style={{ width: 340, height: 250 }} />
-            <div id="card-info">
-              <h1>Password App</h1>
-              <a
-                href="https://github.com/bergannation/03_passwordhmwrk"
-                target="_blank"
-              >
-                <button className="custom-btn btn-11 btn">Repository</button>
-              </a>
-            </div>
-          </ParallaxCard>
-        </a>
-
-        <a
-          href="https://taylorladig.herokuapp.com/"
-          target="_blank"
           className="image7"
           alt="image7"
         >
@@ -186,11 +184,11 @@ export default function Projects() {
             style={{ margin: "0 auto", width: 340, height: 340 }}
             className="image7"
           >
-            <img src={trainer} style={{ width: 340, height: 250 }} />
+            <img src={password} style={{ width: 340, height: 250 }} />
             <div id="card-info">
-              <h1>Personal Trainer</h1>
+              <h1>Password App</h1>
               <a
-                href="https://github.com/bergannation/TaylorLadig"
+                href="https://github.com/bergannation/03_passwordhmwrk"
                 target="_blank"
               >
                 <button className="custom-btn btn-11 btn">Repository</button>
