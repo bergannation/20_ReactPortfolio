@@ -1,143 +1,80 @@
 import React from "react";
-import "../../styles/css/style.css";
+import "../../styles/css/contact.css";
 
-/** Components */
-const Card = (props) => (
-  <div className="cardContainer">
-    {/*<div className="waves">
-    </div>*/}
-    {props.children}
-  </div>
-);
-
-const Form = (props) => <form className="form">{props.children}</form>;
-
-const TextInput = (props) => (
-  <div className="text-input">
-    <label
-      className={props.focus || props.value !== "" ? "label-focus" : ""}
-      htmlFor={props.name}
-    >
-      {props.label}
-    </label>
-    <input
-      className={props.focus || props.value !== "" ? "input-focus" : ""}
-      type="text"
-      name={props.name}
-      value={props.value}
-      onChange={props.onChange}
-      onInput={props.onInput}
-      onFocus={props.onFocus}
-      onBlur={props.onBlur}
-    />
-  </div>
-);
-
-const TextArea = (props) => (
-  <div className="text-area">
-    <label
-      className={props.focus || props.value !== "" ? "label-focus" : ""}
-      htmlFor={props.name}
-    >
-      {props.label}
-    </label>
-    <textarea
-      className={props.focus || props.value !== "" ? "input-focus" : ""}
-      name={props.name}
-      value={props.value}
-      onChange={props.onChange}
-      onInput={props.onInput}
-      onFocus={props.onFocus}
-      onBlur={props.onBlur}
-    />
-  </div>
-);
-
-const Button = (props) => <button className="button">{props.children}</button>;
-
-/** Root Component */
-export default class FormPage extends React.Component {
-  constructor() {
-    super();
-    this.state = {
-      name: {
-        name: "name",
-        label: "Name",
-        value: "",
-        focus: false,
-      },
-      email: {
-        name: "email",
-        label: "Email",
-        value: "",
-        focus: false,
-      },
-      message: {
-        name: "message",
-        label: "Message",
-        value: "",
-        focus: false,
-      },
-    };
-  }
-
-  handleFocus(e) {
-    const name = e.target.name;
-    const state = Object.assign({}, this.state[name]);
-    state.focus = true;
-    this.setState({ [name]: state }, () => {
-      console.log(state);
-    });
-  }
-
-  handleBlur(e) {
-    const name = e.target.name;
-    const state = Object.assign({}, this.state[name]);
-    state.focus = false;
-    this.setState({ [name]: state }, () => {
-      console.log(state);
-    });
-  }
-
-  handleChange(e) {
-    const name = e.target.name;
-    const state = Object.assign({}, this.state[name]);
-    state.value = e.target.value;
-    this.setState({ [name]: state }, () => {
-      console.log(state);
-    });
-  }
-
-  render() {
-    const { name, email, message } = this.state;
-    return (
-      <div className="formContainer">
-        <Card>
-          <h1 className="formHeader">Send me a Message!</h1>
-          <p className="formText">or select one of the choices at the bottom</p>
-          <Form>
-            <TextInput
-              {...name}
-              onFocus={this.handleFocus.bind(this)}
-              onBlur={this.handleBlur.bind(this)}
-              onChange={this.handleChange.bind(this)}
-            />
-            <TextInput
-              {...email}
-              onFocus={this.handleFocus.bind(this)}
-              onBlur={this.handleBlur.bind(this)}
-              onChange={this.handleChange.bind(this)}
-            />
-            <TextArea
-              {...message}
-              onFocus={this.handleFocus.bind(this)}
-              onBlur={this.handleBlur.bind(this)}
-              onChange={this.handleChange.bind(this)}
-            />
-            <Button>Send</Button>
-          </Form>
-        </Card>
-      </div>
-    );
-  }
+export default function FormPage() {
+  return (
+    <div>
+      <section id="contact">
+        <div>
+          <div>
+            <div>
+              <h2 className="section-heading">Contact Form</h2>
+            </div>
+          </div>
+          <div>
+            <div id="contactSection">
+              <form name="sentMessage" id="contactForm" novalidate="">
+                <div>
+                  <div>
+                    <div className="form-group">
+                      <input
+                        type="text"
+                        className="form-control"
+                        placeholder="Your Name *"
+                        id="name"
+                        required=""
+                        data-validation-required-message="Please enter your name."
+                      />
+                      <p className="help-block text-danger"></p>
+                    </div>
+                    <div className="form-group">
+                      <input
+                        type="email"
+                        className="form-control"
+                        placeholder="Your Email *"
+                        id="email"
+                        required=""
+                        data-validation-required-message="Please enter your email address."
+                      />
+                      <p className="help-block text-danger"></p>
+                    </div>
+                    <div className="form-group">
+                      <input
+                        type="tel"
+                        className="form-control"
+                        placeholder="Your Phone *"
+                        id="phone"
+                        required=""
+                        data-validation-required-message="Please enter your phone number."
+                      />
+                      <p className="help-block text-danger"></p>
+                    </div>
+                  </div>
+                  <div>
+                    <div className="form-group">
+                      <textarea
+                        className="form-control"
+                        placeholder="Your Message *"
+                        id="message"
+                        required=""
+                        data-validation-required-message="Please enter a message."
+                      ></textarea>
+                      <p className="help-block text-danger"></p>
+                    </div>
+                  </div>
+                  <div className="clearfix"></div>
+                  <div>
+                    <div id="success"></div>
+                    <button type="submit" className="btn btn-xl">
+                      Send Message
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
 }

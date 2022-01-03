@@ -1,0 +1,132 @@
+.btn-xl {
+  padding: 20px 40px;
+  border-color: white;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #090a0f;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.btn-xl:hover,
+.btn-xl:focus,
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+  border-color: #000000;
+  color: rgb(0, 0, 0);
+  background-color: rgb(211, 209, 209);
+}
+
+section#contact {
+  background-color: rgb(211, 209, 209);
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-size: 100vw;
+}
+
+section#contact .section-heading {
+  color: #fff;
+  text-align: center;
+}
+#contactSection {
+  display: flex;
+  justify-content: center;
+}
+section#contact .form-group {
+  margin-bottom: 25px;
+}
+
+section#contact .form-group input,
+section#contact .form-group textarea {
+  padding: 20px;
+}
+
+section#contact .form-group input.form-control {
+  height: auto;
+  width: 400px;
+}
+
+section#contact .form-group textarea.form-control {
+  height: 236px;
+  width: 400px;
+}
+
+section#contact .form-control:focus {
+  border-color: #1ee2e7;
+  box-shadow: none;
+}
+
+section#contact::-webkit-input-placeholder {
+  text-transform: uppercase;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  color: #bbb;
+}
+
+section#contact:-moz-placeholder {
+  text-transform: uppercase;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  color: #bbb;
+}
+
+section#contact::-moz-placeholder {
+  text-transform: uppercase;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  color: #bbb;
+}
+
+section#contact:-ms-input-placeholder {
+  text-transform: uppercase;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  color: #bbb;
+}
+
+section#contact .text-danger {
+  color: #e74c3c;
+}
+
+.footer {
+  background-color: rgb(211, 209, 209);
+  text-align: center;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.copyright {
+  line-height: 40px;
+  font-weight: bolder;
+}
+.footer ul.quicklinks {
+  margin-bottom: 0;
+  text-transform: uppercase;
+  text-transform: none;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 40px;
+  display: flex;
+  padding: 20px;
+}
+.footer-social-icons {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+}
+.footer span {
+  padding: 20px;
+}
+.footer .social-icons {
+  padding: 20px;
+}
+.footer ul.quicklinks li {
+  padding: 20px;
+}

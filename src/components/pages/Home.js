@@ -1,5 +1,6 @@
 import React from "react";
 
+import firstSlide from "../../images/baylor.jpg";
 import baylor from "../../images/baylor.jpg";
 const GalleryBackground = (props) => {
   return (
@@ -89,14 +90,14 @@ export default class Home extends React.Component {
       {
         id: "1",
         title: "Coaching Experience",
-        url: "https://ever24.s3.us-east-2.amazonaws.com/1628707267883-1806AF3F-8848-4001-B527-0050722483C7.JPG",
+        url: { firstSlide },
         caption:
           "Coaching is a big part of my life! My girlfriend Jaelyn and I have seen some amazing venues! Click the slideshow to view the places that I have coached at!",
       },
       {
         id: "2",
         title: "Baylor",
-        url: "https://ever24.s3.us-east-2.amazonaws.com/1628705483268-baylor.JPG",
+        url: { firstSlide },
         caption: "ACU vs Baylor University Sept 1st, 2018",
       },
       {
