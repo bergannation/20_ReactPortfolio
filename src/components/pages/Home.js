@@ -1,11 +1,27 @@
 import React from "react";
 
-import firstSlide from "../../images/baylor.jpg";
 import baylor from "../../images/baylor.jpg";
+import jaelyn from "../../images/jaelyn.jpg";
+import army from "../../images/army.jpg";
+import acu from "../../images/acu.jpg";
+import gretna from "../../images/gretna.jpg";
+import gretna2 from "../../images/gretna2.jpg";
+import gretna3 from "../../images/gretna3.jpg";
+import gretna4 from "../../images/gretna4.jpg";
+import jaelyn5 from "../../images/jaelyn5.jpg";
+import mcneese from "../../images/mcneese.jpg";
+import missState from "../../images/missState.jpg";
+import missState2 from "../../images/missState2.jpg";
+import samHouston from "../../images/samHouston.jpg";
+import utep from "../../images/utep.jpg";
+import gretnaWideouts from "../../images/wideouts.jpg";
+import wideoutsDonte from "../../images/wideoutsDonte.jpg";
+import wideoutsGent from "../../images/wideoutsGent.jpg";
+
 const GalleryBackground = (props) => {
   return (
     <div class="photo-gallery__background">
-      <img src={props.photos[props.currentPhoto].url} alt="" />
+      <img src={props.photos[props.currentPhoto].src} alt="image broken" />
     </div>
   );
 };
@@ -13,7 +29,7 @@ const GalleryBackground = (props) => {
 const GalleryImage = (props) => {
   return (
     <div class="photo-gallery__image">
-      <img src={props.photos[props.currentPhoto].url} alt="" />
+      <img src={props.photos[props.currentPhoto].src} alt="image broken" />
     </div>
   );
 };
@@ -90,44 +106,50 @@ export default class Home extends React.Component {
       {
         id: "1",
         title: "Coaching Experience",
-        url: { firstSlide },
+        src: jaelyn5,
         caption:
-          "Coaching is a big part of my life! My girlfriend Jaelyn and I have seen some amazing venues! Click the slideshow to view the places that I have coached at!",
+          "Coaching is a big part of my life! Jaelyn and I have seen some amazing venues from my time at ACU. Click through the slideshow to view some of the places that I have visited.",
       },
       {
         id: "2",
-        title: "Baylor",
-        url: { firstSlide },
-        caption: "ACU vs Baylor University Sept 1st, 2018",
+        title: "Nebraska Class A State Champions 2021",
+        src: gretna,
+        caption: "Gretna High School, Gretna NE",
       },
       {
         id: "3",
-        title: "Virginia",
-        url: "https://ever24.s3.us-east-2.amazonaws.com/1628707278741-IMG_0937.jpg",
-        caption: "ACU vs Virginia, Nov 21st, 2020",
+        title: "Baylor",
+        src: baylor,
+        caption: "ACU vs Baylor University Sept 1st, 2018",
       },
       {
         id: "4",
-        title: "ACU WR's",
-        url: "https://ever24.s3.us-east-2.amazonaws.com/1628707295019-IMG_8592.JPG",
-        caption: "Wideouts 4 Life",
+        title: "Virginia",
+        src: wideoutsDonte,
+        caption: "ACU vs Virginia, Nov 21st, 2020",
       },
       {
         id: "5",
-        title: "Army",
-        url: "https://ever24.s3.us-east-2.amazonaws.com/1628707315247-IMG_0683.JPG",
-        caption: "ACU vs Army, Oct 3rd, 2020",
+        title: "State Champions!",
+        src: gretnaWideouts,
+        caption: "Wideouts 4 Life",
       },
       {
         id: "6",
-        title: "UTEP",
-        url: "https://ever24.s3.us-east-2.amazonaws.com/1628707320333-IMG_0597.JPG",
-        caption: "ACU vs UTEP, Sept 19th, 2020",
+        title: "Army",
+        src: army,
+        caption: "ACU vs Army, Oct 3rd, 2020",
       },
       {
         id: "7",
+        title: "UTEP",
+        src: utep,
+        caption: "ACU vs UTEP, Sept 19th, 2020",
+      },
+      {
+        id: "8",
         title: "Miss State",
-        url: "https://ever24.s3.us-east-2.amazonaws.com/1628707286114-IMG_9368.jpg",
+        src: missState2,
         caption: "ACU vs Mississippi State, Nov 23rd, 2019",
       },
     ],

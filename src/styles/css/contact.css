@@ -1,4 +1,4 @@
-.btn-xl {
+.contactFormButton {
   padding: 20px 40px;
   border-color: white;
   border-radius: 3px;
@@ -12,18 +12,19 @@
   margin-bottom: 10px;
 }
 
-.btn-xl:hover,
-.btn-xl:focus,
-.btn-xl:active,
-.btn-xl.active,
-.open .dropdown-toggle.btn-xl {
-  border-color: #000000;
-  color: rgb(0, 0, 0);
+.contactFormButton:hover,
+.contactFormButton:focus,
+.contactFormButton:active,
+.contactFormButton.active,
+.open .dropdown-toggle.contactFormButton {
+  border-color: #1b2735;
+  color: #1b2735;
   background-color: rgb(211, 209, 209);
 }
 
 section#contact {
-  background-color: rgb(211, 209, 209);
+  background: radial-gradient(ellipse at bottom, #1b2735, #090a0f);
+  margin: 0;
   background-position: center;
   background-repeat: no-repeat;
   text-align: center;
@@ -92,41 +93,4 @@ section#contact:-ms-input-placeholder {
 
 section#contact .text-danger {
   color: #e74c3c;
-}
-
-.footer {
-  background-color: rgb(211, 209, 209);
-  text-align: center;
-  color: black;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-.copyright {
-  line-height: 40px;
-  font-weight: bolder;
-}
-.footer ul.quicklinks {
-  margin-bottom: 0;
-  text-transform: uppercase;
-  text-transform: none;
-  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  line-height: 40px;
-  display: flex;
-  padding: 20px;
-}
-.footer-social-icons {
-  display: flex;
-  padding: 20px;
-  align-items: center;
-}
-.footer span {
-  padding: 20px;
-}
-.footer .social-icons {
-  padding: 20px;
-}
-.footer ul.quicklinks li {
-  padding: 20px;
 }

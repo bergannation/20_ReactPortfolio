@@ -8,7 +8,7 @@ export default function FormPage() {
         <div>
           <div>
             <div>
-              <h2 className="section-heading">Contact Form</h2>
+              <h2 id="h2">Contact Form</h2>
             </div>
           </div>
           <div>
@@ -65,7 +65,7 @@ export default function FormPage() {
                   <div className="clearfix"></div>
                   <div>
                     <div id="success"></div>
-                    <button type="submit" className="btn btn-xl">
+                    <button type="submit" className="contactFormButton">
                       Send Message
                     </button>
                   </div>
