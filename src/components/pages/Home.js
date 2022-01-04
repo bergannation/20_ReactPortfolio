@@ -154,7 +154,7 @@ export default class Home extends React.Component {
       },
     ],
     currentPhotoIndex: 0,
-    captionOpen: false,
+    captionOpen: true,
   };
 
   toggleCaption = () => {
