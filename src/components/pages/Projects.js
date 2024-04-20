@@ -148,7 +148,7 @@ export default function Projects() {
         </a>
 
         <a
-          href="https://bergan-notetaker2.herokuapp.com/"
+          href="https://notetaker11tlb-ce1371fc235f.herokuapp.com/"
           target="_blank"
           className="image6"
           alt="image6"
