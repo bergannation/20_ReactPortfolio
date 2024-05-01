@@ -1,7 +1,7 @@
 {
   "name": "20_ReactPortfolio",
   "version": "0.1.0",
-  "homepage": "https://www.tlbportfolio.com/",
+  "homepage": "https://bergannation.github.io/20_ReactPortfolio",
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@testing-library/jest-dom": "^5.14.1",
