@@ -1,27 +1,18 @@
 import React from "react";
-
 import baylor from "../../images/baylor.jpg";
-import jaelyn from "../../images/jaelyn.jpg";
 import army from "../../images/army.jpg";
-import acu from "../../images/acu.jpg";
 import gretna from "../../images/gretna.jpg";
-import gretna2 from "../../images/gretna2.jpg";
-import gretna3 from "../../images/gretna3.jpg";
-import gretna4 from "../../images/gretna4.jpg";
 import jaelyn5 from "../../images/jaelyn5.jpg";
-import mcneese from "../../images/mcneese.jpg";
-import missState from "../../images/missState.jpg";
 import missState2 from "../../images/missState2.jpg";
-import samHouston from "../../images/samHouston.jpg";
 import utep from "../../images/utep.jpg";
 import gretnaWideouts from "../../images/wideouts.jpg";
 import wideoutsDonte from "../../images/wideoutsDonte.jpg";
-import wideoutsGent from "../../images/wideoutsGent.jpg";
+
 
 const GalleryBackground = (props) => {
   return (
     <div class="photo-gallery__background">
-      <img src={props.photos[props.currentPhoto].src} alt="image broken" />
+      <img src={props.photos[props.currentPhoto].src} alt="image1" />
     </div>
   );
 };
@@ -29,7 +20,7 @@ const GalleryBackground = (props) => {
 const GalleryImage = (props) => {
   return (
     <div class="photo-gallery__image">
-      <img src={props.photos[props.currentPhoto].src} alt="image broken" />
+      <img src={props.photos[props.currentPhoto].src} alt="image2" />
     </div>
   );
 };
