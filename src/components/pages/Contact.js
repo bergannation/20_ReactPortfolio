@@ -1,6 +1,6 @@
 import React from "react";
 
-import resume from "../../images/Resume.pdf";
+import resume2 from "../../images/Resume2.pdf";
 import "../../styles/css/style2.css";
 
 export default function Contact() {
@@ -39,7 +39,7 @@ export default function Contact() {
         >
           <div className="text">LinkedIn</div>
         </a>
-        <a href={resume} target="_blank" className="righter">
+        <a href={resume2} target="_blank" className="righter">
           <div className="text">Resume</div>
         </a>
       </div>
